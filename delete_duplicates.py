@@ -4,4 +4,4 @@ for i in numbers:
     if i not in new_lista:
         new_lista.append(i)
 new_lista.sort()
-print(new_lista)
+print('Clean list of duplicates: ', new_lista)
