@@ -10,7 +10,7 @@ for tree in trees:
         counts[tree] +=1
     else:
         counts[tree] =1
-
+print('The species trees are:')
 for tree, count in counts.items():
     print(f"{tree}:{count}")
 
