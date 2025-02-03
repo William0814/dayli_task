@@ -8,12 +8,12 @@ while True:
     match temperature_type:
         case 'F°':
             fahrenheit = (user_temperature-32)*5/9
-            print(f'Temperature fahrenheit to celsius: {fahrenheit} F°')
+            print(f'Temperature fahrenheit to celsius: {fahrenheit} C°')
             break
         
         case 'C°':
-            celsius = (user_temperature+32)*5/9
-            print(f'Temperature celsius to fahrenheit: {(celsius)} C°')
+            celsius = (user_temperature*9/5)+32
+            print(f'Temperature celsius to fahrenheit: {(celsius)} F°')
             break
 
         case anything:
